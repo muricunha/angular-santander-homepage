@@ -1,0 +1,45 @@
+.banner{
+  margin-top: 28px;
+  background-image: url(../../../assets/images/gil-desktop.jpg);
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 30%;
+  background-position-y: unset;
+
+
+  &-form{
+    width: 600px;
+    margin: 30px 0 30px 0;
+    padding: 20px;
+    background-color: var(--color-light);
+    border-radius: 4px;
+    box-shadow: 0 2px 10px 0 rgb(68 68 68 / 20%);
+
+
+    h1{
+      font-size: 40px;
+      font-weight: 500;
+      line-height: 1.5;
+      color: var(--color-dark);
+      padding: 10px;
+    }
+
+    h2{
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 1.5;
+      color: var(--color-dark);
+      padding: 10px;
+    }
+    button{
+      margin-left: 14px;
+      width: 250px;
+      height: 56px;
+    }
+    .invalid-feedback{
+      position: relative;
+      bottom: -20px;
+    }
+  }
+}
